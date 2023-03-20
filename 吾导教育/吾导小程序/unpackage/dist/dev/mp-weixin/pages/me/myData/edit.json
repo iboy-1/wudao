@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "编辑个人信息",
+  "usingComponents": {
+    "ren-calendar": "/components/ren-calendar/ren-calendar",
+    "cc-picker": "/components/cc-picker/cc-picker"
+  }
+}

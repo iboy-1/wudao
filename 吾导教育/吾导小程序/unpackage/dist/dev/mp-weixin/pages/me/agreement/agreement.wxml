@@ -1,0 +1,1 @@
+<view class="page"><view class="title">{{content.title}}</view><view class="centent_box"><rich-text nodes="{{content.contents}}"></rich-text></view></view>

@@ -1,0 +1,1 @@
+<view class="page"><block wx:if="{{ismodel}}"><view class="model"></view></block><block wx:if="{{ismodel}}"><view class="box"><view data-event-opts="{{[['tap',[['Help',['$event']]]]]}}" class="button1" bindtap="__e">点击为好友助力</view></view></block></view>

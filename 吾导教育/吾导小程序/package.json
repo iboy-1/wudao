@@ -1,0 +1,11 @@
+{
+    "id": "zy-slideitem",
+    "name": "可滑动宫格组件",
+    "version": "1.0",
+    "description": "可滑动宫格组件",
+    "keywords": [
+        "九宫格",
+        "多空格",
+        "空格"
+    ]
+}

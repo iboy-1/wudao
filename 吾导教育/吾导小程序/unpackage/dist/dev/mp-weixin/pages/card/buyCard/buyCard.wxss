@@ -1,0 +1,296 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page {
+  width: 750rpx;
+  max-width: 750rpx;
+  background-color: #EDF2F7;
+}
+.page {
+  width: 750rpx;
+  margin: 0 auto;
+  padding-bottom: 100rpx;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 40rpx;
+  background-color: #FFFFFF;
+}
+.content .card {
+  display: flex;
+  flex-direction: column;
+}
+.content .card .top {
+  padding: 0rpx 46rpx;
+  position: relative;
+}
+.content .card .top .model {
+  position: absolute;
+  top: 0rpx;
+  left: 46rpx;
+  width: 658rpx;
+  height: 400rpx;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 20rpx;
+}
+.content .card .top .border {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 616rpx;
+  height: 360rpx;
+  border: 2rpx solid #FFFFFF;
+  opacity: 0.3;
+  border-radius: 20rpx;
+}
+.content .card .top image {
+  width: 100%;
+  height: 400rpx;
+  border-radius: 20rpx;
+}
+.content .card .top .card_name {
+  position: absolute;
+  left: 100rpx;
+  top: 36rpx;
+}
+.content .card .top .card_name .name {
+  margin-bottom: 20rpx;
+  font-size: 40rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.content .card .top .card_name .rule1 {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+.content .card .top .card_name1 {
+  width: 550rpx;
+  position: absolute;
+  left: 100rpx;
+  bottom: 36rpx;
+}
+.content .card .top .card_name1 .type {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 10rpx;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.content .card .top .card_name1 .hr {
+  width: 100%;
+  height: 4rpx;
+  background-color: #FFFFFF;
+}
+.content .card .top .card_name1 .explain {
+  width: 500rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-top: 10rpx;
+  font-size: 20rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.content .card .top .card_name1 .explain .text {
+  width: 500rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.content .card_name {
+  padding: 15rpx 34rpx 20rpx;
+  font-size: 40rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #4D4D4D;
+}
+.content .type {
+  padding: 15rpx 34rpx 20rpx;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #808080;
+}
+.content .rules {
+  padding: 15rpx 34rpx 20rpx;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #808080;
+}
+.content .bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx 30rpx;
+  border-top: 2rpx solid #F1F1F1;
+}
+.content .bottom .look {
+  font-size: 24rpx;
+  color: #555555;
+}
+.content .bottom image {
+  width: 12rpx;
+  height: 20rpx;
+}
+.price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20rpx;
+  padding: 20rpx 30rpx;
+  background-color: #FFFFFF;
+}
+.price .left {
+  display: flex;
+  flex-direction: column;
+}
+.price .left .now_money {
+  font-size: 48rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #FF6666;
+}
+.price .left .now_money text {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #FF6666;
+}
+.price .left .num {
+  margin: 6rpx 0rpx 10rpx 0rpx;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #4D4D4D;
+}
+.price .left .money {
+  font-size: 24rpx;
+  color: #999999;
+}
+.price .left .money text {
+  margin-left: 10rpx;
+  text-decoration: line-through;
+}
+.rule {
+  padding: 20rpx 30rpx;
+  background-color: #FFFFFF;
+  font-size: 24rpx;
+  color: #808080;
+}
+.title {
+  padding: 24rpx;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.title .hr {
+  width: 8rpx;
+  height: 32rpx;
+  margin-right: 14rpx;
+  background: #3091F2;
+  border-radius: 4rpx;
+}
+.title .text {
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #4D4D4D;
+}
+.add {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 36rpx 24rpx;
+  border-top: 2rpx solid #E6E6E6;
+  background-color: #FFFFFF;
+}
+.add .add_box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 260rpx;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #4D4D4D;
+}
+.add .add_box .hr {
+  width: 8rpx;
+  height: 32rpx;
+  margin-right: 14rpx;
+  background: #3091F2;
+  border-radius: 4rpx;
+}
+.add .choice {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.add .choice image {
+  width: 24rpx;
+  height: 14rpx;
+  margin: 0 6rpx;
+}
+.items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 60rpx 30rpx 30rpx 30rpx;
+  font-size: 24rpx;
+}
+.items .agree {
+  margin-left: 20rpx;
+}
+.button_box {
+  padding: 0 30rpx;
+}
+.button_box .botton {
+  width: 100%;
+  height: 80rpx;
+  border-radius: 10rpx;
+  background-color: #3091F2;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 80rpx;
+}
+

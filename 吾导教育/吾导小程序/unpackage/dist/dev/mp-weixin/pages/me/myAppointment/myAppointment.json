@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我的预约",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "ls-skeleton": "/components/ls-skeleton/ls-skeleton",
+    "aui-loading": "/components/aui-loading/aui-loading",
+    "cc-picker": "/components/cc-picker/cc-picker"
+  }
+}

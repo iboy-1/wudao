@@ -1,0 +1,1 @@
+<view class="page"><block wx:if="{{myVideo}}"><block></block></block><block wx:else><block><view class="no_video"><image src="../../../static/no_data.png"></image><view>没有训练建议～ o(︶︿︶)o</view></view></block></block></view>

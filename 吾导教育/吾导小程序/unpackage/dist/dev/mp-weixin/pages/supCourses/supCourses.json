@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "查看7天课程",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "ls-skeleton": "/components/ls-skeleton/ls-skeleton",
+    "aui-loading": "/components/aui-loading/aui-loading"
+  }
+}

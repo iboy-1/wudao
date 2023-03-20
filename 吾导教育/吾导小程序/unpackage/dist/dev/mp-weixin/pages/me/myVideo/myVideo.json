@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我的视频课程",
+  "usingComponents": {
+    "ls-skeleton": "/components/ls-skeleton/ls-skeleton",
+    "aui-loading": "/components/aui-loading/aui-loading"
+  }
+}

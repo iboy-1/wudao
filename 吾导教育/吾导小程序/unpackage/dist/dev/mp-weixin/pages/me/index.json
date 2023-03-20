@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "个人中心",
+  "usingComponents": {
+    "ls-skeleton": "/components/ls-skeleton/ls-skeleton",
+    "aui-loading": "/components/aui-loading/aui-loading"
+  }
+}

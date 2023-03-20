@@ -1,0 +1,79 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/address/other",
+    "pages/address/address",
+    "pages/address/nav-map",
+    "pages/account/account",
+    "pages/account/bind-phone",
+    "pages/index/Notice/Notice",
+    "pages/index/Notice/Notice-detail",
+    "pages/course/index",
+    "pages/course/course",
+    "pages/course/course1",
+    "pages/card/index",
+    "pages/card/buyCard/buyCard",
+    "pages/Activity/Activity",
+    "pages/Activity/myActivity/myActivity",
+    "pages/Activity/Activity-details",
+    "pages/Activity/helpBargain",
+    "pages/Activity/Bargaining",
+    "pages/me/index",
+    "pages/opinion/opinion",
+    "pages/TeacherList/TeacherList",
+    "pages/TeacherList/teacher-details",
+    "pages/me/myData/myData",
+    "pages/me/myData/edit",
+    "pages/me/agreement/agreement",
+    "pages/me/myAppointment/myAppointment",
+    "pages/me/myAppointment/evaluate",
+    "pages/me/myCard/myCard",
+    "pages/supCourses/supCourses",
+    "pages/me/myVideo/myVideo",
+    "pages/me/myVideo/playVideo",
+    "pages/me/myProposal/myProposal",
+    "pages/me/myReport/myReport",
+    "pages/me/myTransfer/myTransfer"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#808080",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/indexCopy.png",
+        "selectedIconPath": "static/index.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/course/index",
+        "iconPath": "static/courseCopy.png",
+        "selectedIconPath": "static/course.png",
+        "text": "课程"
+      },
+      {
+        "pagePath": "pages/card/index",
+        "iconPath": "static/cardCopy.png",
+        "selectedIconPath": "static/card.png",
+        "text": "卡服务"
+      },
+      {
+        "pagePath": "pages/me/index",
+        "iconPath": "static/meCopy.png",
+        "selectedIconPath": "static/me.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

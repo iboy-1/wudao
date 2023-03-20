@@ -1,0 +1,1 @@
+<picker class="ccp" range-key="{{k}}" value="{{Index}}" range="{{Range}}" data-event-opts="{{[['change',[['change',['$event']]]]]}}" bindchange="__e"><view>{{$root.m0}}</view></picker>

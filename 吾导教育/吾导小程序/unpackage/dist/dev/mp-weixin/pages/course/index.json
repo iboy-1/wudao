@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "课程列表",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "ls-skeleton": "/components/ls-skeleton/ls-skeleton",
+    "ren-calendar": "/components/ren-calendar/ren-calendar",
+    "aui-loading": "/components/aui-loading/aui-loading",
+    "cc-picker": "/components/cc-picker/cc-picker"
+  }
+}

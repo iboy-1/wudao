@@ -1,0 +1,278 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.page {
+  width: 750rpx;
+  margin: 0 auto;
+}
+swiper {
+  width: 100%;
+  height: 100vh;
+}
+swiper .item {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+swiper .item .item_box {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+swiper .item .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+swiper .item .img {
+  width: 400rpx;
+  height: 580rpx;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+swiper .item .img1 {
+  width: 400rpx;
+  height: 400rpx;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+swiper .item .bottom {
+  position: absolute;
+  z-index: 9;
+  width: 100%;
+  height: 40rpx;
+  bottom: 20rpx;
+  -webkit-animation: animationup 1.5s infinite ease-in-out;
+          animation: animationup 1.5s infinite ease-in-out;
+}
+swiper .item .bottom:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin-left: -12rpx;
+  width: 28rpx;
+  height: 28rpx;
+  border-left: 6rpx solid #09aeef;
+  border-top: 6rpx solid #09aeef;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+swiper .item .bottom:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 18rpx;
+  left: 50%;
+  margin-left: -12rpx;
+  width: 28rpx;
+  height: 28rpx;
+  border-left: 6rpx solid #09aeef;
+  border-top: 6rpx solid #09aeef;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+swiper .item .info {
+  width: 670rpx;
+  padding: 40rpx;
+  position: absolute;
+  z-index: 100;
+}
+swiper .item .info .item-one {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 20rpx 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+swiper .item .info .item-one image {
+  box-sizing: border-box;
+  width: 80rpx;
+  height: 80rpx;
+  margin: 0 20rpx;
+  border-radius: 40rpx;
+  border: 4rpx solid #0088c6;
+}
+swiper .item .info .item-one view {
+  line-height: 35rpx;
+  font-size: 22rpx;
+  color: #0b92c7;
+}
+swiper .item .info .item-one view text {
+  margin: 0 10rpx;
+}
+swiper .item .info .item-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20rpx 0;
+  margin-top: 40rpx;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-size: 22rpx;
+}
+swiper .item .info .item-two .intake {
+  color: #b9b9b9;
+}
+swiper .item .info .item-two .num {
+  color: #ff0;
+}
+swiper .item .info .item-three {
+  margin-top: 100rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+swiper .item .info .item-three .son {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+swiper .item .info .item-three .son .garden {
+  position: relative;
+  width: 132rpx;
+  height: 132rpx;
+  border: 4rpx solid #ff0;
+  box-sizing: border-box;
+  border-radius: 50%;
+  margin-top: -20rpx;
+}
+swiper .item .info .item-three .son .garden .title {
+  width: 152rpx;
+  position: absolute;
+  top: -60rpx;
+  left: 20rpx;
+  font-size: 28rpx;
+  color: #b0b0ae;
+}
+swiper .item .info .item-three .son .garden .title1 {
+  width: 152rpx;
+  position: absolute;
+  top: 150rpx;
+  left: 0rpx;
+  font-size: 28rpx;
+  color: #b0b0ae;
+}
+swiper .item .info .item-three .son .garden .content {
+  text-align: center;
+  line-height: 132rpx;
+  color: #FFFFFF;
+}
+swiper .item .info .data {
+  width: 100%;
+  height: 386rpx;
+  margin-top: 90rpx;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+swiper .item .info .body {
+  width: 100%;
+  margin-top: 20rpx;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  padding: 20rpx 0;
+}
+swiper .item .info .body view {
+  margin-left: 30rpx;
+  font-size: 22rpx;
+  color: #0b92c7;
+}
+swiper .item .info .body view text {
+  margin: 0 10rpx;
+}
+@-webkit-keyframes animationup {
+0% {
+    opacity: 0;
+    -webkit-transform: translate(0, 20rpx);
+            transform: translate(0, 20rpx);
+}
+30% {
+    opacity: 0;
+    -webkit-transform: translate(0, 20rpx);
+            transform: translate(0, 20rpx);
+}
+60% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+}
+100% {
+    opacity: 0;
+    -webkit-transform: translate(0, -16rpx);
+            transform: translate(0, -16rpx);
+}
+}
+@keyframes animationup {
+0% {
+    opacity: 0;
+    -webkit-transform: translate(0, 20rpx);
+            transform: translate(0, 20rpx);
+}
+30% {
+    opacity: 0;
+    -webkit-transform: translate(0, 20rpx);
+            transform: translate(0, 20rpx);
+}
+60% {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+}
+100% {
+    opacity: 0;
+    -webkit-transform: translate(0, -16rpx);
+            transform: translate(0, -16rpx);
+}
+}
+.no_video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 100rpx;
+}
+.no_video image {
+  width: 180rpx;
+  height: 156rpx;
+}
+.no_video view {
+  margin-top: 20rpx;
+  text-align: center;
+  font-size: 28rpx;
+  color: #808080;
+}
+

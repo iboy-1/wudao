@@ -1,0 +1,17 @@
+
+.page{
+	padding: 30rpx 30rpx 0;
+}
+.header{
+	margin-bottom: 30rpx;
+	display: flex;
+	flex-direction: row;
+	font-size: 28rpx;
+	color: #999999;
+}
+.time{
+	margin-right: 24rpx;
+	font-size: 28rpx;
+	color: #999999;
+}
+

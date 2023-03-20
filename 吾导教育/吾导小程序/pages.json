@@ -1,0 +1,253 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "吾导",
+				"enablePullDownRefresh" : true
+			}
+		},
+		{
+			"path": "pages/address/other",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/address/address",
+			"style": {
+				"navigationBarTitleText": "工作室地址",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/address/nav-map",
+			"style": {
+				"navigationBarTitleText": "工作室地址"
+			}
+		},
+		{
+			"path": "pages/account/account",
+			"style": {
+				"navigationBarTitleText": "绑定账号"
+			}
+		},
+		{
+			"path": "pages/account/bind-phone",
+			"style": {
+				"navigationBarTitleText": "绑定手机号",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/index/Notice/Notice",
+			"style": {
+				"navigationBarTitleText": "场馆公告"
+			}
+		},
+		{
+			"path": "pages/index/Notice/Notice-detail",
+			"style": {
+				"navigationBarTitleText": "公告内容"
+			}
+		},
+		{
+			"path": "pages/course/index",
+			"style": {
+				"navigationBarTitleText": "课程列表",
+				"enablePullDownRefresh" : true
+			}
+		},
+		{
+			"path": "pages/course/course",
+			"style": {
+				"navigationBarTitleText": "课程预约"
+			}
+		},
+		{
+			"path": "pages/course/course1",
+			"style": {
+				"navigationBarTitleText": "课程预约"
+			}
+		},
+		{
+			"path": "pages/card/index",
+			"style": {
+				"navigationBarTitleText": "会员卡列表",
+				"enablePullDownRefresh" : true
+			}
+		},
+		{
+			"path": "pages/card/buyCard/buyCard",
+			"style": {
+				"navigationBarTitleText": "购买会员卡"
+			}
+		},
+		{
+			"path": "pages/Activity/Activity",
+			"style": {
+				"navigationBarTitleText": "活动报名",
+				"enablePullDownRefresh" : true
+			}
+		},
+		{
+			"path": "pages/Activity/myActivity/myActivity",
+			"style": {
+				"navigationBarTitleText": "我的报名"
+			}
+		},
+		{
+			"path": "pages/Activity/Activity-details",
+			"style": {
+				"navigationBarTitleText": "活动详情"
+			}
+		},
+		{
+			"path": "pages/Activity/helpBargain",
+			"style": {
+				"navigationBarTitleText": "助力砍价"
+			}
+		},
+		{
+			"path": "pages/Activity/Bargaining",
+			"style": {
+				"navigationBarTitleText": "全民砍价"
+			}
+		},
+		{
+			"path": "pages/me/index",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/opinion/opinion",
+			"style": {
+				"navigationBarTitleText": "意见反馈"
+			}
+		},
+		{
+			"path": "pages/TeacherList/TeacherList",
+			"style": {
+				"navigationBarTitleText": "老师列表",
+				"enablePullDownRefresh" : true
+			}
+		},
+		{
+			"path": "pages/TeacherList/teacher-details",
+			"style": {
+				"navigationBarTitleText": "老师信息"
+			}
+		},
+		{
+			"path": "pages/me/myData/myData",
+			"style": {
+				"navigationBarTitleText": "会员信息"
+			}
+		},
+		{
+			"path": "pages/me/myData/edit",
+			"style": {
+				"navigationBarTitleText": "编辑个人信息"
+			}
+		},
+		{
+			"path": "pages/me/agreement/agreement",
+			"style": {
+				"navigationBarTitleText": "会员协议"
+			}
+		},
+		{
+			"path": "pages/me/myAppointment/myAppointment",
+			"style": {
+				"navigationBarTitleText": "我的预约",
+				"enablePullDownRefresh" : true
+			}
+		},
+		{
+			"path": "pages/me/myAppointment/evaluate",
+			"style": {
+				"navigationBarTitleText": "发表评价"
+			}
+		},
+		{
+			"path": "pages/me/myCard/myCard",
+			"style": {
+				"navigationBarTitleText": "我的会员卡",
+				"enablePullDownRefresh" : true
+			}
+		},
+		{
+			"path": "pages/supCourses/supCourses",
+			"style": {
+				"navigationBarTitleText": "查看7天课程",
+				"enablePullDownRefresh" : true
+			}
+		},
+		{
+			"path": "pages/me/myVideo/myVideo",
+			"style": {
+				"navigationBarTitleText": "我的视频课程"
+			}
+		},
+		{
+			"path": "pages/me/myVideo/playVideo",
+			"style": {
+				"navigationBarTitleText": "视频播放"
+			}
+		},
+		{
+			"path": "pages/me/myProposal/myProposal",
+			"style": {
+				"navigationBarTitleText": "训练建议"
+			}
+		},
+		{
+			"path": "pages/me/myReport/myReport",
+			"style": {
+				"navigationBarTitleText": "我的健身报告"
+			}
+		},
+		{
+			"path": "pages/me/myTransfer/myTransfer",
+			"style": {
+				"navigationBarTitleText": "转卡记录"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {"titleNView": false}
+	},
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#808080",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/indexCopy.png",
+	        "selectedIconPath": "static/index.png",
+	        "text": "首页"
+	    }, {
+	        "pagePath": "pages/course/index",
+	        "iconPath": "static/courseCopy.png",
+	        "selectedIconPath": "static/course.png",
+	        "text": "课程"
+	    }, {
+	        "pagePath": "pages/card/index",
+	        "iconPath": "static/cardCopy.png",
+	        "selectedIconPath": "static/card.png",
+	        "text": "卡服务"
+	    }, {
+	        "pagePath": "pages/me/index",
+	        "iconPath": "static/meCopy.png",
+	        "selectedIconPath": "static/me.png",
+	        "text": "我的"
+	    }]
+	}
+}
